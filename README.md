@@ -10,7 +10,7 @@
 
 -   Lalu pada cmd ketikan `composer create-project laravel/laravel=v10.2.9 belajar-laravel-redis`.
 
--   Link instalasi redis: https://youtu.be/DLKzd3bvgt8?si=mSOQv7e8gh6M7lKT
+-   Link instalasi redis OSwin11: https://youtu.be/DLKzd3bvgt8?si=mSOQv7e8gh6M7lKT
 
 -   Perintah menjalankan redis `redis-cli` lalu `ping`.
 
@@ -31,7 +31,7 @@
 
 -   Dokumentasi: https://github.com/phpredis/phpredis
 
--   Dokumntasi: https://github.com/predis/predis
+-   Dokumentasi: https://github.com/predis/predis
 -   Perintah instalasi `composer require predis/predis`
 
 ---
