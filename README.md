@@ -138,7 +138,7 @@
         Redis::sadd("names", "Akbar");
         Redis::sadd("names", "Akbar");
 
-        $response = Redis::smembers("names"); // smembers untuk mendapatkan sata unik
+        $response = Redis::smembers("names"); // smembers untuk mendapatkan data unik
         self::assertEquals(["Gusti", "Alifiraqsha", "Akbar"], $response);
     }
     ```
