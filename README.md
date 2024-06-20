@@ -10,7 +10,7 @@
 
 -   Lalu pada cmd ketikan `composer create-project laravel/laravel=v10.2.9 belajar-laravel-redis`.
 
--   Link instalasi redis OSwin11: https://youtu.be/DLKzd3bvgt8?si=mSOQv7e8gh6M7lKT
+-   Link instalasi redis di OSwin11, [Redis](https://youtu.be/DLKzd3bvgt8?si=mSOQv7e8gh6M7lKT)
 
 -   Perintah menjalankan redis `redis-cli` lalu `ping`.
 
@@ -29,9 +29,10 @@
 
 -   Oleh karena itu, di kelas ini kita akan mengunakan library Predis, yang hanya menggunakan kode PHP,
 
--   Dokumentasi: https://github.com/phpredis/phpredis
+-   [Dokumentasi](https://github.com/phpredis/phpredis)
 
--   Dokumentasi: https://github.com/predis/predis
+-   [Dokumentasi](https://github.com/predis/predis)
+  
 -   Perintah instalasi `composer require predis/predis`
 
 ---
@@ -51,7 +52,7 @@
 
 -   Untuk menggunakan Redis di Laravel, kita bisa menggunakan Redis _Facade_ yang secara otomatis membaca konfigurasi dari konfigurasi redis di Laravel.
 
--   Dokumentasi: https://laravel.com/api/10.x/Illuminate/Support/Facades/Redis.html
+-   [Dokumentasi](https://laravel.com/api/10.x/Illuminate/Support/Facades/Redis.html)
 
 -   Untuk mengirim perintah ke Redis, kita bisa menggunakan _method_ `command()` di Redis _Facade_,
 
